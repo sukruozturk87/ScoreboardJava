@@ -15,6 +15,7 @@ import org.springframework.web.filter.GenericFilterBean;
 import com.sukruozturk.scoreboard.service.AuthenticationService;
 
 public class AuthenticationFilter extends GenericFilterBean {
+	
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain)
 			throws IOException, ServletException {
