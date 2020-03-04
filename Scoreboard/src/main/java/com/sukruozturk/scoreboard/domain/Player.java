@@ -13,17 +13,15 @@ public class Player {
 	private Long id;
 	private String name;
 	private int score;
-	private String email;
 
 	public Player() {
 		super();
 	}
 
-	public Player(String name, int score, String email) {
+	public Player(String name, int score) {
 		super();
 		this.name = name;
 		this.score = score;
-		this.email = email;
 	}
 
 	public Long getId() {
@@ -48,14 +46,6 @@ public class Player {
 
 	public void setScore(int score) {
 		this.score = score;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
 	}
 
 }
